@@ -30,6 +30,7 @@ function createCnpjDigits($cnpj) {
 }
 
 function isValidCnpj($cnpj) {
+    //Based in http://tiny.cc/vv49rz
     if (empty($cnpj)) {
         return false;
     }
